@@ -50,7 +50,7 @@ const Content = () => {
 
 
   return (
-    <div className="flex items-center justify-center flex-col text-foreground text-base">
+    <div className="flex items-center justify-center flex-col text-foreground text-base -mb-4 relative px-4 md:px-8 ">
       <p className="mb-2">We are still</p>
       <h2 className="font-bold font-poppins text-center text-3xl md:text-4xl lg:text-7xl mb-8">Cooking our site</h2>
       <div className="text-center">
@@ -60,7 +60,7 @@ const Content = () => {
       <Toaster />
       <Dialog className="rounded-3xl">
         <DialogTrigger asChild>
-          <Button className="bg-purple-800 mt-5 rounded-3xl" size="lg">
+          <Button className="bg-purple-800 mt-5 rounded-3xl absolute z-10 -bottom-16" size="lg">
             <Mail className="mr-2 h-4 w-4" />
             Notify Me
           </Button>
